@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <div class="container d-flex  align-items-center justify-content-between py-4">
+            <img src="./Link.svg" alt="logo">
+            <div class="links d-none d-lg-flex gap-4">
+              <a href="./index.html">HOME</a>
+                <a href="./product.html">PRODUCT</a>
+                <a href="./collection.html">COLLECTIONS</a>
+                <a href="./about.html">ABOUT US</a>
+                <a href="./contact.html">CONTACT</a>
+                <a href="./custom.html">CUSTOM DESIGN</a> 
+            </div>
+             <div class="Button  d-flex gap-3">
+                    <button id="searchIcon" type="button">
+                        <img src="./Button - Search Archive.svg" alt="Search">
+                    </button>
+                    <input type="text"
+                    id="searchInput"
+                    placeholder="Search..."
+                    style="display: none;"
+                    >
+                  
+                    <div class="card-icon">
+                        <span id="itemcunt">0</span>
+                        <img src="./Button - The Vault.svg" alt="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    </div>
+                  
+                </div>
+                
+           
+                <i class="fa-solid fa-bars-staggered fs-2 cursor-pointer d-lg-none" 
+   data-bs-toggle="offcanvas" 
+   data-bs-target="#mobileSidebar"></i>
+
+<div class="offcanvas offcanvas-start w-75 " tabindex="-1" id="mobileSidebar">
+  
+  <div class="offcanvas-header justify-content-end p-4">
+    <button type="button" class="btn-close btn-close-white fs-4" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center">
+    <ul class="nav flex-column text-center gap-4">
+     <li class="nav-item">
+          <a class="nav-link " href="./index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  " href="./product.html">PRODUCT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  " href="./collection.html">COLLECTIONS</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link  " href="./about.html">ABOUT US</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link  " href="./contact.html">CONTACT</a>
+       </li>
+      <li class="nav-item">
+        <a class="nav-link  " href="./custom.html">CUSTOM DESIGN</a>
+      </li>
+    </ul>
+  </div>
+
+  </div>
+        <div class="icons d-none d-md-flex gap-3">
+            <img src="./Vector (3).svg" alt="">
+            <img src="./heart.svg" alt="">
+            <img src="./shopping-bag.png" alt="">
+            <img src="./user-round.png" alt="">
+        </div>
+        </div>
+    </header>
+    <section id="hero_section">
+    <div class="hero-content">
+        <div class="hero-text" >
+            <p  data-aos="fade-right">THE ART OF JEWELRY</p>
+        <h1  data-aos="fade-right">
+            Timeless<br>
+            Elegance
+        </h1>
+        <span  data-aos="fade-right">Discover our exquisite collection</span></br>
+        <a href="#section-product"><button class="mt-4"  data-aos="fade-right">Explore Collection</button></a>
+        </div>
+         <div class="jewelry-video">
+        <video autoplay muted loop playsinline>
+            <source src="./6262752-uhd_3840_2160_25fps.mp4" type="video/mp4">
+        </video>
+        <span class="light-beam"></span>
+    </div>
+    </div>
+</section>
+<section id="product-detail">
+    <div class="container">
+           
+    </div>
+     <div class="content">
+            <div class="container">
+                <div class="row">
+                <div class="col-12 col-md-6 card-1">
+                   <img src="./Container (6).svg" alt="">
+                </div>
+                <div class="col-12 col-md-6 card-2">
+                    <h2 data-aos="fade-right" data-aos-duration="1100" data-aos-delay="0">Aura Solitaire Diamond
+                        Ring</h2>
+                    <span data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">$9,200 USD</span>
+                    <p data-aos="fade-right" data-aos-duration="1100" data-aos-delay="200">Hand-cast in recycled 18k yellow gold with an unheated 2.4ct radiant diamond.</p> 
+                </div>
+            </div>
+            </div>
+        </div>
+</section>
+<section id="section-product">
+    <div class="container">
+        <h2 data-aos="fade-right" data-aos-duration="1100">Carefully selected products</h2>
+        <div class="filter-buttons d-flex flex-row gap-3 pb-5">
+           <button onclick="filterProduct('all')">All</button>
+            <button onclick="filterProduct('gold ring')">Gold Rings</button>
+            <button onclick="filterProduct('gold necklance')">Gold Necklaces</button>
+            <button onclick="filterProduct('gold bracelet')">Gold Bracelets</button>
+
+            <button onclick="filterProduct('diamond ring')">Diamond Rings</button>
+            <button onclick="filterProduct('diamond necklance')">Diamond Necklaces</button>
+            <button onclick="filterProduct('diamond bracelet')">Diamond Bracelets</button>
+            <button onclick="filterProduct('diamond shaving')">Diamond Earrings</button>
+        </div>
+        <div class="row g-3 mobile-scroll-row" id="productArea" >
+        </div>
+    
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Your Cart</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div id="cartdody">
+            
+                </div>
+           
+            </div>
+             <h3>Subtotal : <span class="span" id="totalspan">----</span> UCD</h3>
+             </div>
+  
+
+</section>
+<footer>
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-12  col-lg-3 ">
+                <img src="./Link.svg" alt=""></br>
+                <span>Fine jewelry, handcrafted in Cairo.</span></br>
+                <p>PRIVATE CORRESPONDENCE</p>
+                <div class="d-flex flex-row"><input type="email" id="email" placeholder="Enter your email" ><label for="email">SUBSCRIBE</label></div>
+                <hr>
+                </div>
+                <div class="col-12  col-lg-3">
+                <div class="d-none d-lg-flex flex-md-column card-shop">
+                    <span>shop</span>
+                    <p>Collections</p>
+                    <p>Rings</p>
+                    <p>Necklaces</p>
+                    <p>Earrings</p>
+                    <p>Bracelets</p>
+                      
+                </div>
+                  <div class="accordion d-flex d-lg-none" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span>shop</span>
+                            </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body d-flex flex-column">
+                                <p>Collections</p>
+                                <p>Rings</p>
+                                <p>Necklaces</p>
+                                <p>Earrings</p>
+                                <p>Bracelets</p>
+                            </div>
+                            </div>
+                        </div>
+            
+                </div>
+                </div>
+                <div class="col-12  col-lg-3">
+                <div class="d-none d-lg-flex flex-md-column">
+                    <span>ATELIER</span>
+                    <p>Our Story</p>
+                    <p>Custom Design</p>
+                    <p>Contact</p>
+                      
+                </div>
+                 <div class="accordion d-flex d-lg-none" id="accordionExample">
+                     <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <span>ATELIER</span>
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Our Story</p>
+                        <p>Custom Design</p>
+                        <p>Contact</p>
+        
+                    </div>
+                    </div>
+                </div>
+                 </div>
+                
+                </div>
+                 <div class="col-12  col-lg-3">
+                <div class="d-none d-lg-flex flex-md-column">
+                    <span>VISIT</span>
+                    <p class="p">CAIRO BOUTIQUE</p>
+                       <p>12 Shagaret El Dorr, Zamalek, Cairo</p>
+                       <button>BOOK AN APPOINTMENT →</button>
+                </div>
+                 <div class="accordion d-flex d-lg-none" id="accordionExample">
+                        <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                       <span>VISIT</span>
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                       <p class="p">CAIRO BOUTIQUE</p>
+                       <p>12 Shagaret El Dorr, Zamalek, Cairo</p>
+                       <button>BOOK AN APPOINTMENT →</button>
+                    </div>
+            </div>
+            </div>
+                 </div>
+            
+                </div>
+            </div>
+        </div>
+            
+           
+    </footer>
+<script src="./product.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init({
+    duration: 900,
+    easing: 'ease-out-cubic',        
+    offset: 80,        
+    });
+    </script>
+</body>
+</html>
