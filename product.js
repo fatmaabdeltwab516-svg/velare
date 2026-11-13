@@ -69,7 +69,7 @@ const showproduct =(products = jelwery)=>{
     products.forEach((el,index)=> {
         productArea.innerHTML+=`
              <div class="col-12 col-md-4 product-item">
-                <div class="product-card "data-aos="fade-up" data-aos-delay="100" data-aos-duration="1100">
+                <div class="product-card ">
                     <img src="${el.img}" alt="">
                     <button>PAVÉ DIAMOND · 18K GOLD</button>
                     <p>${el.name}</p>

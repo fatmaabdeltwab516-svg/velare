@@ -1792,6 +1792,8 @@ header{
         text-align: center; 
         }
         form{
+            border: 1px solid #E4C278;
+            padding: 12px;
             label{
             font-family:  "Jost", sans-serif;
             font-size: 16px;
@@ -2718,7 +2720,7 @@ footer{
 }
 /*collection-section=========================== */
 #collection-section{
-    background-color: #1B0B2C;
+    background-color: #f7f3ed;
     .container{
          padding-top: 32px;
         padding-bottom: 32px;
@@ -2730,9 +2732,9 @@ footer{
         }
         h4{
            font-family:  "Fraunces", sans-serif;
-         font-size: 48px;
-         font-weight: 700;
-         color: #CDC3D0; 
+         font-size: 32px;
+         font-weight: 600;
+         color: #13071d; 
          padding-bottom: 12px;
          text-align: center;
         }
@@ -2759,7 +2761,7 @@ footer{
                     width: 100%;
                     height: 260px;
                     object-fit: cover;
-                   margin-left: 12px;
+                   margin-left: 0;
                 }
                 .typo5{
                         font-family:  "Fraunces", sans-serif;
@@ -2782,6 +2784,8 @@ footer{
                     color: #E4C278;
                     padding-left: 12px;
                     padding-bottom: 24px;
+                    display: inline-block;
+                    text-align: center;
                 }
             }
             .card-collection:hover{
@@ -2828,12 +2832,13 @@ footer{
                     background-color: transparent;
                     border: 2px solid #E4C278;
                     padding: 16px ; 
+                    margin: 0 auto;
                   
                 }
                 h1{
                      font-family:  "Fraunces", sans-serif;
-                        font-size: 64px;
-                        font-weight: 700;
+                        font-size: 32px;
+                        font-weight: 600;
                         color: #EFDBFF;
                         padding-top: 24px;
                         padding-bottom: 24px;
@@ -2844,18 +2849,21 @@ footer{
                     font-size: 18px;
                     font-weight: 400;
                     color: #CDC3D0; 
+                    text-align: center;
                 }
                 .typo3{
                     font-family:  "Jost", sans-serif;
                     font-size: 28px;
                     font-weight: 400;
                     color: #E4C278; 
+                    text-align: center;
                 }
                 span{
                     font-family:  "Jost", sans-serif;
                     font-size: 16px;
                     font-weight: 400;
                     color: #E4C278; 
+                    text-align: center;
                 }
                 .button-size{
                      button{
@@ -2865,9 +2873,9 @@ footer{
                     color: #CDC3D0;
                     background-color: transparent;
                     border: 2px solid #E4C278;
-                    padding: 12px ; 
+                    padding: 6px ; 
                     margin-left: 0;
-                    margin: 5px;
+                    margin: 3px;
                     
                     }
                     button:hover{
@@ -3206,7 +3214,6 @@ footer{
          padding: 90px 24px;
         .content{
             width: 100%;
-            max-width: 270px;
             span{
                 font-family:  "Fraunces", sans-serif;
                 font-size: 16px;
@@ -3247,12 +3254,14 @@ footer{
                 font-weight: 500;
                 color: #8E6D3A;
                 padding-bottom: 12px;
+                text-align: center;
             }
             h2{
                 font-family:  "Fraunces", sans-serif;
                 font-size: 38px;
                 font-weight: 500;
                 color: #1A1613;
+                text-align: center;
             }
             p{
                 font-family:  "Jost", sans-serif;
@@ -3260,6 +3269,7 @@ footer{
                 font-weight: 400;
                 color: #4A4238;
                 padding-bottom: 24px;
+                text-align: center;
             }
             hr{
                 height: 5px;
@@ -3605,7 +3615,7 @@ footer{
 /*cusom-design-section=========================== */
 
 #hero-section4{
-    padding: 80px;
+    padding: 90px;
     overflow: hidden;
          background:radial-gradient(circle at 0% 0% , rgba(105,50,145,0.3)0%,transparent 20%),
          radial-gradient(circle at 50% 50% , rgba(68,28,98,0.35)0%,transparent 45%),
@@ -3746,6 +3756,8 @@ footer{
         text-align: center; 
         }
         form{
+            border: 1px solid #E4C278;
+            padding: 12px;
             label{
             font-family:  "Jost", sans-serif;
             font-size: 16px;
@@ -5742,6 +5754,8 @@ footer{
         text-align: center; 
         }
         form{
+            border: 1px solid #E4C278;
+            padding: 12px;
             label{
             font-family:  "Jost", sans-serif;
             font-size: 16px;
