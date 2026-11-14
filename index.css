@@ -1118,6 +1118,7 @@ header{
         }
         .row{
             .product-card{
+                height: 100%;
                 background-color: #ffffff;
                  border: 1px solid #E4C278;
                  padding-bottom: 20px;
@@ -1160,6 +1161,7 @@ header{
                     }
                 }
                 p{
+                    height: 70px;
                     font-family:  "Fraunces", sans-serif;
                     font-size: 28px;
                     font-weight: 700;
@@ -1887,9 +1889,9 @@ header{
                 width: 35px;
                 margin-bottom: 15px;
                 #preview{
-                    width: 250px;
-                    height: 250px;
-                    object-fit: contain;
+                    width: 250px !important;
+                    height: 250px !important;
+                    object-fit: cover !important;
                     margin: 20px 0 20px 0;
                 }
                 }
@@ -2023,7 +2025,7 @@ footer{
             color: #E4C278;  
             }
             .card-shop{
-                padding-left: 50px;
+                padding-left: 75px;
             }
             p{
                 padding-top: 12px;
@@ -2052,11 +2054,13 @@ footer{
                 height: 5px;
                 color: #E4C278;
             }
-            p{
+            a{
                 font-family:  "Jost", sans-serif;
                 font-size: 16px;
                 font-weight: 500;
                 color: #CCC4CD;
+                text-decoration: none;
+                padding-top: 12px;
             }
             .p{
                 font-family:  "Jost", sans-serif;
@@ -4026,11 +4030,13 @@ footer{
                 height: 5px;
                 color: #E4C278;
             }
-            p{
+            a{
                 font-family:  "Jost", sans-serif;
                 font-size: 16px;
                 font-weight: 500;
                 color: #CCC4CD;
+                text-decoration: none;
+                padding-top: 12px;
             }
             .p{
                 font-family:  "Jost", sans-serif;
@@ -4063,11 +4069,13 @@ footer{
                      }
                 }
                 .accordion-body{
-                    p{
-                        font-family:  "Fraunces", sans-serif;
-                        font-size: 18px;
-                        font-weight: 500;
-                        color:#CCC4CD; 
+                    a{
+                    font-family:  "Jost", sans-serif;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #CCC4CD;
+                    text-decoration: none;
+                    padding-top: 12px;
                     }
                 }
                 .accordion-button {
@@ -6014,11 +6022,13 @@ footer{
                 height: 5px;
                 color: #E4C278;
             }
-            p{
+             a{
                 font-family:  "Jost", sans-serif;
                 font-size: 16px;
                 font-weight: 500;
                 color: #CCC4CD;
+                text-decoration: none;
+                padding-top: 12px;
             }
             .p{
                 font-family:  "Jost", sans-serif;
